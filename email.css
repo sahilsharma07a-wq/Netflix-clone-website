@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.navbar {
+    height: 93px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sign {
+    text-decoration: none;
+    margin-right: 250px;
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+#img {
+    margin-top: 15px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+.content {
+    margin-top: 80px;
+    max-width: 30vw;
+    align-items: start;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 309px;
+    background-image: cover;
+
+    ;
+}
+
+#para {
+    margin: 10px;
+    max-width: 33vw;
+    font-size: 1.2rem;
+    margin-left: 0px;
+    font-weight: 10px;
+}
+
+h1 {
+    max-width: 25vw;
+    margin-left: 0px;
+}
+
+#btn { 
+    background-color: rgba(255, 0, 0, 1);
+    border: 1px transparent white;
+    border-radius: 6px;
+    max-width: 33vw;
+    padding: 9px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    z-index: 3;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/* #btn-black{
+    width: 100%;
+    background-color: black;
+} */
+
+.footer {
+    background-color: rgba(221, 216, 216, 0.705);
+    margin-top: 250px;
+    height: 370px;
+
+    border-top: 1px transparent grey;
+}
+
+p {
+    padding: 50px 0px 0px 60px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#list {
+    margin-left: 48px;
+    padding: 25px 5px 15px 40px;
+    color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-around;
+}
+
+select {
+    margin-top: 40px;
+    margin-left: 60px;
+    font-weight: 13px;
+    font-size: 1.1rem;
+}
+
+#sign:hover {
+    border-width: 0.0625rem;
+    border-radius: calc(0.1875rem);
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(183, 176, 176, 0.851);
+}
+
+#btn:hover {
+    background-color: rgba(246, 7, 7, 0.763);
+}
